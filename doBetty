@@ -1,0 +1,10 @@
+/*
+* loop over c files and betty them
+*/
+
+#!/bin/bash
+
+for file in *.c
+do
+  betty "$file"
+done
